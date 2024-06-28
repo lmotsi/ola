@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/lesego/projects/church_website/OurLadyOfTheAssumption/OurLadyOfTheAssumption.csproj": {}
+    "/home/lesego/projects/ola/OurLadyOfTheAssumption/OurLadyOfTheAssumption.csproj": {}
   },
   "projects": {
-    "/home/lesego/projects/church_website/OurLadyOfTheAssumption/OurLadyOfTheAssumption.csproj": {
+    "/home/lesego/projects/ola/OurLadyOfTheAssumption/OurLadyOfTheAssumption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lesego/projects/church_website/OurLadyOfTheAssumption/OurLadyOfTheAssumption.csproj",
+        "projectUniqueName": "/home/lesego/projects/ola/OurLadyOfTheAssumption/OurLadyOfTheAssumption.csproj",
         "projectName": "OurLadyOfTheAssumption",
-        "projectPath": "/home/lesego/projects/church_website/OurLadyOfTheAssumption/OurLadyOfTheAssumption.csproj",
+        "projectPath": "/home/lesego/projects/ola/OurLadyOfTheAssumption/OurLadyOfTheAssumption.csproj",
         "packagesPath": "/home/lesego/.nuget/packages/",
-        "outputPath": "/home/lesego/projects/church_website/OurLadyOfTheAssumption/obj/",
+        "outputPath": "/home/lesego/projects/ola/OurLadyOfTheAssumption/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/lesego/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
