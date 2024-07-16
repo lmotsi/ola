@@ -1,0 +1,139 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    padding: 1.5em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure navbar is on top */
+}
+
+.navbar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo h1 {
+    font-size: 1.5em; /* Adjust font size for logo */
+    margin-right: 20px; /* Space between logo and nav items */
+}
+
+.navbar .logo img {
+    height: 3em; /* Adjust logo size as needed */
+    width: auto;
+    filter: invert(1); /* Invert logo colors */
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items li {
+    margin-left: 10%; /* Adjust spacing between navbar items */
+}
+
+.nav-items li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em; /* Adjust font size for nav items */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-items li a:hover {
+    color: rgb(0, 17, 255); /* Red color on hover */
+}
+
+/* Welcome section styles */
+.welcome-section {
+    height: 100vh; /* Full viewport height */
+    background-image: url('assets/img/Untitled.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.background-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay color and opacity */
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/*
+.centered h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+} */
+
+.centered h1 {
+    font-size: 2.5em; /* Adjust font size */
+    font-weight: bold;
+    color: #ffffff; /* Dark color for contrast */
+    text-align: center;
+    margin-bottom: 0.5em; /* Space below the heading */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Letter spacing for emphasis */
+    line-height: 1.2; /* Line height for readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+}
+
+.centered h2 {
+    font-size: 1em; /* Adjust font size */
+    font-weight: normal;
+    color: #ffffff; /* Slightly darker color */
+    text-align: center;
+    margin-bottom: 1em; /* Space below the heading */
+    text-transform: uppercase;  
+    letter-spacing: 1px; /* Letter spacing for emphasis */
+    line-height: 1.5; /* Line height for readability */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
