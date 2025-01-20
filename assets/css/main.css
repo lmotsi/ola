@@ -1042,6 +1042,9 @@ section,
   border-radius: 0px;
 }
 
+.mission ul {
+  list-style-position: inside;
+}
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
