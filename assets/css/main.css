@@ -2077,3 +2077,297 @@ section,
   opacity: 0.9; 
 }
 
+/*--------------------------------------------------------------
+# Features Section
+--------------------------------------------------------------*/
+.features .nav-tabs {
+  border: 0;
+  background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  padding: 6px;
+  width: auto;
+}
+
+.features .nav-item {
+  margin: 0;
+  padding: 0 5px 0 0;
+}
+
+.features .nav-item:last-child {
+  padding-right: 0;
+}
+
+.features .nav-link {
+  background-color: none;
+  color: var(--heading-color);
+  padding: 10px 30px;
+  transition: 0.3s;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
+  border: 0;
+  margin: 0;
+}
+
+@media (max-width: 468px) {
+  .features .nav-link {
+    padding: 8px 20px;
+  }
+}
+
+.features .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+
+.features .nav-link h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.features .nav-link:hover {
+  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+}
+
+.features .nav-link:hover h4 {
+  color: var(--accent-color);
+}
+
+.features .nav-link.active {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.features .nav-link.active h4 {
+  color: var(--contrast-color);
+}
+
+.features .tab-content {
+  margin-top: 30px;
+}
+
+.features .tab-pane h3 {
+  color: var(--heading-color);
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.features .tab-pane h3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  bottom: 0;
+}
+
+.features .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .tab-pane ul li {
+  padding-top: 10px;
+}
+
+.features .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--accent-color);
+}
+
+.features .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+.features .sub .nav-pills {
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.features .sub .nav-pills li+li {
+  margin-left: 40px;
+}
+
+.features .sub .nav-link {
+  background: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--default-color);
+  padding: 12px 0;
+  margin-bottom: -2px;
+  border-radius: 0;
+}
+
+.features .sub .nav-link.active {
+  color: var(--accent-color);
+  background: none;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+@media (max-width: 575px) {
+  .features .sub .nav-link {
+    font-size: 16px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Features Details Section
+--------------------------------------------------------------*/
+.features-details .features-item+.features-item {
+  margin-top: 60px;
+  color: color-mix(in srgb, var(--accent-color), transparent 95%);
+}
+
+.features-details .features-item .content {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.features .content {
+  border-radius: 15px;
+} 
+
+.features-details .features-item h3 {
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.features-details .features-item .more-btn {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 6px 30px;
+  border-radius: 6px;
+}
+
+.features-details .features-item .more-btn:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+.features-details .features-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features-details .features-item ul li {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.features-details .features-item ul li:last-child {
+  padding-bottom: 0;
+}
+
+.features-details .features-item ul i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: var(--accent-color);
+}
+
+.features-details .features-item img {
+  border-radius: 15px;
+}
+
+/*Agri Stuff*/
+#about-tab1 {
+  border-radius: 15px;
+}
+
+.about .section-title {
+  margin-bottom: 60px;
+}
+
+#sacredheart .content{
+  background: #500d0dec;
+}
+
+#sacredheart .content-title {
+  color: #0f1030;
+}
+
+#stanne .content{
+  background: #380052ec;
+}
+
+#stanne .content-title {
+  color: #c072ff;
+}
+
+#cwl .content{
+  background: #000852;
+}
+
+#cwl .content-title {
+  color: #ffffff;
+}
+
+#ssvp .content{
+  background: #3e9bb3;
+}
+
+#ssvp .content-title {
+  color: #ffffff;
+}
+
+#dosa .content{
+  background: #e5b4fcec;
+}
+
+#dosa .content-title {
+  color: #c072ff;
+}
+
+#cecilia .content{
+  background: #ff0000;
+}
+
+#cecilia .content-title {
+  color: #000000;
+}
+
+.about .content {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 7rem 0;
+}
+
+.about .content .img-overlap {
+  margin-top: -150px;
+  border-radius: 15px;
+}
+
+.about p {
+  color: var(--contrast-color);
+}
+
+.about .content-title {
+  color: var(--contrast-color);
+  font-weight: 300;
+  text-align: left;
+}
+
+.about .content-title strong {
+  font-weight: 700;
+}
+
+.about .content-subtitle {
+  font-weight: 300;
+  color: var(--contrast-color);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
