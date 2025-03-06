@@ -2340,6 +2340,14 @@ section,
   color: #000000;
 }
 
+#altarservers .content{
+  background: #000000;
+}
+
+#altarservers .content-title {
+  color: #474747;
+}
+
 .about .content {
   background: var(--accent-color);
   color: var(--contrast-color);
