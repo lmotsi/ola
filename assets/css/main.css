@@ -2149,7 +2149,7 @@ section,
   color: var(--contrast-color);
 }
 
-.features .tab-content {
+.features .tab-content .sodality-block {
   margin-top: 30px;
 }
 
