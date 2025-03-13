@@ -1298,6 +1298,20 @@ section,
   color: var(--accent-color);
 }
 
+.service-item:hover h4 {
+  color: var(--contrast-color);
+}
+
+.service-item ul {
+  list-style: none; 
+  padding: 0;
+}
+
+.service-item li {
+  display: flex;
+  gap: 8px;
+}
+
 /*--------------------------------------------------------------
 # Appointment Section
 --------------------------------------------------------------*/
