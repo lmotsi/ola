@@ -1032,8 +1032,14 @@ section,
 
 .mission .service-item:hover h4 a,
 .mission .service-item:hover .icon i,
-.mission .service-item:hover p {
+.mission .service-item:hover p, 
+.mission .service-item:hover li,
+.mission .service-item:hover .bi-check-circle {
   color: var(--contrast-color);
+}
+
+.bi-check-circle {
+  color: var(--accent-color);
 }
 
 .mission .service-item:hover:before {
