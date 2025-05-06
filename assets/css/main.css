@@ -2348,6 +2348,11 @@ section,
   color: #ffffff;
 }
 
+#spred .content{
+  background: #015501;
+}
+
+
 #dosa .content{
   background: #e5b4fcec;
 }
