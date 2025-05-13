@@ -2369,6 +2369,18 @@ section,
   color: #000000;
 }
 
+#masolenyana .content{
+  background: #000b6d;
+}
+
+#masolenyana .content-subtitle {
+  color: #e5ff00;
+}
+
+#masolenyana .content-title {
+  color: #ff0000;
+}
+
 #altarservers .content{
   background: #000000;
 }
